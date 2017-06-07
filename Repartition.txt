@@ -3,8 +3,8 @@
     blaireau
     firestorm0657
     Sunofureku
-    (inconnu, probablement Lenekodunet)
-    (inconnu, peut-être Abibeur)
+    Lenekodunet
+    Abibeur
 </scenario>
 
 <codage, representant = (blaireau ou Stellaris, j'aurais tendance à dire blaireau vu que Stellaris = C++ = diable [^.^])>
@@ -14,6 +14,7 @@
     faremy
     paul75
     marius851000
+    Lenekodunet
 </codage>
 
 <musique, representant = faremy>
