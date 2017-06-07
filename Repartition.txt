@@ -1,28 +1,30 @@
-<scenario, representant = (celui qui prends pas le scénario entre blaireau et Stellaris)>
+<scenario, chefs = blaireau | faremy>
     Stellaris
     blaireau
     firestorm0657
     Sunofureku
     Lenekodunet
     Abibeur
+    FranSab
 </scenario>
 
-<codage, representant = (blaireau ou Stellaris, j'aurais tendance à dire blaireau vu que Stellaris = C++ = diable [^.^])>
-    blaireau
+<codage, representant = Stellaris | (marius851000)>
+    blaireau
     Stellaris
     Sunofureku
     faremy
     paul75
     marius851000
     Lenekodunet
+    FranSab
 </codage>
 
-<musique, representant = faremy>
-    faremy
+<musique>
+    faremy
     blaireau
 </musique>
 
-<graphisme, representant = Sunofureku>
+<graphisme>
     Sunofureku
     (faremy si on fait du pixel art)
 </graphisme>
