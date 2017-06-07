@@ -1,6 +1,7 @@
 <scenario, chefs = blaireau | faremy>
     Stellaris
     blaireau
+    faremy
     firestorm0657
     Sunofureku
     Lenekodunet
@@ -8,7 +9,7 @@
     FranSab
 </scenario>
 
-<codage, representant = Stellaris | (marius851000)>
+<codage, representant = Stellaris | marius851000>
     blaireau
     Stellaris
     Sunofureku
