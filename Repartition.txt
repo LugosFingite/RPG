@@ -1,4 +1,4 @@
-<scenario, chefs = blaireau | faremy>
+<scenario, superviseurs = blaireau | faremy>
     Stellaris
     blaireau
     faremy
@@ -9,7 +9,7 @@
     FranSab
 </scenario>
 
-<codage, chefs = Stellaris | marius851000>
+<codage, superviseurs = Stellaris | marius851000>
     blaireau
     Stellaris
     Sunofureku
