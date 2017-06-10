@@ -9,7 +9,7 @@
     FranSab
 </scenario>
 
-<codage, representant = Stellaris | marius851000>
+<codage, chefs = Stellaris | marius851000>
     blaireau
     Stellaris
     Sunofureku
