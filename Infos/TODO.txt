@@ -1,0 +1,17 @@
+<scenario>
+    Choisir un thème
+    Ecrire le scénario
+</scenario>
+
+<codage>
+    Assembler l'UI dans la classe Main.Game (fonction run())
+</codage>
+
+<musique> </musique>
+
+<graphisme>
+    Faire des graphismes de base pour l'UI
+</graphisme>
+
+Faire un brainstorming pour trouver des noms.
+Garder les meilleurs noms.

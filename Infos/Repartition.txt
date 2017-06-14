@@ -1,0 +1,31 @@
+﻿<scenario, superviseurs = blaireau | faremy>
+    Stellaris
+    blaireau
+    faremy
+    firestorm0657
+    Sunofureku
+    Lenekodunet
+    Abibeur
+    FranSab
+</scenario>
+
+<codage, superviseurs = Stellaris | marius851000>
+    blaireau
+    Stellaris
+    Sunofureku
+    faremy
+    paul75
+    marius851000
+    Lenekodunet
+    FranSab
+</codage>
+
+<musique>
+    faremy
+    blaireau
+</musique>
+
+<graphisme>
+    Sunofureku
+    (faremy si on fait du pixel art)
+</graphisme>
