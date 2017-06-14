@@ -1,4 +1,4 @@
-<scenario, superviseurs = blaireau | faremy>
+﻿<scenario, superviseurs = blaireau | faremy>
     Stellaris
     blaireau
     faremy
@@ -10,7 +10,7 @@
 </scenario>
 
 <codage, superviseurs = Stellaris | marius851000>
-    blaireau
+    blaireau
     Stellaris
     Sunofureku
     faremy
@@ -21,7 +21,7 @@
 </codage>
 
 <musique>
-    faremy
+    faremy
     blaireau
 </musique>
 
@@ -29,4 +29,3 @@
     Sunofureku
     (faremy si on fait du pixel art)
 </graphisme>
- 
