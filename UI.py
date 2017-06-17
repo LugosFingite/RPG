@@ -6,9 +6,9 @@ from Util import *
 _MAXCHAR = 72
 _IGNORE = [' ', '.', ',', '!', '?', ':', ';']
 
-_icon = pygame.image.load_extended("Graphism\\Icon.png")
-_button1 = pygame.image.load_extended("Graphism\\Button1.png")
-_button2 = pygame.image.load_extended("Graphism\\Button2.png")
+_icon = pygame.image.load_extended("Graphismes\\Icon.png")
+_button1 = pygame.image.load_extended("Graphismes\\Button1.png")
+_button2 = pygame.image.load_extended("Graphismes\\Button2.png")
 
 
 class UI:
