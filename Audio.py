@@ -1,17 +1,19 @@
 import ctypes
 from pygame import mixer
+from Util import *
 
 
 class ST:
     def __init__(self):
         mixer.init()
+        log("Gestion de l'audio assurée !")
 
     def __del__(self):
         mixer.quit()
 
 
-    def loadsound(self, sound: str, histoire: str, repeat: ctypes.c_int16):
-        s = mixer.Sound("Musique/" + histoire + "/" + sound + ".ogg")
+    def loadsound(self, sound: str, repeat: ctypes.c_int16):
+        s = mixer.Sound("Musique\\" + sound + ".ogg")
         r = repeat
         p = False
 

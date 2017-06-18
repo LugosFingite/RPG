@@ -1,14 +1,14 @@
 {
   "desc" : "Test du son (repetitions)",
   "textColor" : "blue",
-  "son" : "test",
+  "son" : "Test\\test",
   "son.repeat" : 4,
 
   "actions" : [
     {
       "desc" : "retour a l'intro",
       "textColor" : "black",
-      "cible" : "intro"
+      "cible" : "Test\\intro"
     }
   ]
 }

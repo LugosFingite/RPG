@@ -4,24 +4,24 @@
   "actions" : [
     {
       "desc" : "Test",
-      "cible" : "intro"
+      "cible" : "Test\\intro"
     },
 
     {
       "desc" : "Test 2",
-      "cible" : "intro"
+      "cible" : "Test\\intro"
     },
 
     {
       "desc" : "Test image",
       "textColor" : "green",
-      "cible" : "image"
+      "cible" : "Test\\image"
     },
 
     {
       "desc" : "Test son",
       "textColor" : "blue",
-      "cible" : "son"
+      "cible" : "Test\\son"
     },
 
     {

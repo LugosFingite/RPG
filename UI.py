@@ -3,18 +3,17 @@ import ctypes
 from Audio import st
 import Histoire
 from Util import *
-import sys
 
 
 _MAXCHAR = 72
 _IGNORE = [' ', '.', ',', '!', '?', ':', ';']
 
-_icon = pygame.image.load_extended("Graphismes/Icon.png")
-_ui = pygame.image.load_extended("Graphismes/UI.png")
-_button1 = pygame.image.load_extended("Graphismes/Button1.png")
-_button2 = pygame.image.load_extended("Graphismes/Button2.png")
-_button3 = pygame.image.load_extended("Graphismes/Button3.png")
-_noImage = pygame.image.load_extended("Graphismes/NoImage.png")
+_icon = pygame.image.load_extended("Graphismes\\Icon.png")
+_ui = pygame.image.load_extended("Graphismes\\UI.png")
+_button1 = pygame.image.load_extended("Graphismes\\Button1.png")
+_button2 = pygame.image.load_extended("Graphismes\\Button2.png")
+_button3 = pygame.image.load_extended("Graphismes\\Button3.png")
+_noImage = pygame.image.load_extended("Graphismes\\NoImage.png")
 
 
 class UI:
@@ -93,7 +92,7 @@ class UI:
                 if Histoire.pages[Histoire.page].son != None:
                     st.stopsound(Histoire.pages[Histoire.page].son[0])
                     Histoire.pages[Histoire.page].son[2] = False
-                Histoire.page = "Aventures/" + sys.argv[1] + "/" + action.cible + ".json"
+                Histoire.page = "Aventures\\" + action.cible + ".json"
 
         else:
             self.MAIN.blit(_button1, (40, y))

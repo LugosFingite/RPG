@@ -1,20 +1,14 @@
 import pygame
-import sys
 from Util import *
-
-if len(sys.argv) <= 1:
-    raise RuntimeError("Pas d'histoire fournie en argument !")
-
 import Histoire
 from UI import ui, _ui, _noImage
 from Audio import st
 
 
-
 class Game:
-    def __init__(self, histoire: str):
+    def __init__(self):
         self.done = False
-        self.histoire = histoire
+        log("Jeu chargé et prêt à jouer !")
 
     def run(self):
         try:
@@ -55,7 +49,8 @@ class Game:
 
 
 
-rpg = Game(sys.argv[1])
+rpg = Game()
 
 while not rpg.done:
     rpg.run()
+log("Projet terminé sans problèmes !")
