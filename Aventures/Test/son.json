@@ -1,0 +1,24 @@
+{
+  "desc" : "Test du son",
+  "textColor" : "blue",
+  "son" : "test",
+  "son.repeat" : 0,
+
+  "actions" : [
+    {
+      "desc" : "retour a l'intro",
+      "textColor" : "black",
+      "cible" : "intro"
+    },
+
+    {
+      "desc" : "test des repetitions",
+      "cible" : "son2"
+    },
+
+    {
+      "desc" : "test de la repetition a l'infini",
+      "cible" : "son3"
+    }
+  ]
+}

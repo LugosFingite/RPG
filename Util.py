@@ -1,10 +1,18 @@
+from pygame.mixer import Sound
+from pygame import Color
+import typing
+
+
 log = lambda e: print("LOG:", e)
 
+description = typing.Tuple[str, Color]
 
-colors = [
-    (0, 0, 0), #Noir
-    (255, 255, 255), #Blanc
-    (255, 0, 0), #Rouge
-    (0, 255, 0), #Vert
-    (0, 0, 255) #Bleu
-]
+son = typing.Tuple[Sound, int, bool]
+
+
+class Action:
+    def __init__(self, desc: description, cible: str):
+        self.desc = desc
+        self.cible = cible
+
+action = typing.List[Action]

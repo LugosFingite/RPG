@@ -1,11 +1,8 @@
 <scenario>
-    Choisir un thème
-    Ecrire le scénario
+    Ecrire les scénario
 </scenario>
 
-<codage>
-    Assembler l'UI dans la classe Main.Game (fonction run())
-</codage>
+<codage> </codage>
 
 <musique> </musique>
 

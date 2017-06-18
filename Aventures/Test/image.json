@@ -1,0 +1,13 @@
+{
+  "desc" : "Test des images",
+  "textColor" : "green",
+  "image" : "test",
+
+  "actions" : [
+    {
+      "desc" : "Retour a l'intro",
+      "textColor" : "black",
+      "cible" : "intro"
+    }
+  ]
+}

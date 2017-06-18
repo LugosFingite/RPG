@@ -1,0 +1,33 @@
+{
+  "desc" : "Ceci est un test",
+
+  "actions" : [
+    {
+      "desc" : "Test",
+      "cible" : "intro"
+    },
+
+    {
+      "desc" : "Test 2",
+      "cible" : "intro"
+    },
+
+    {
+      "desc" : "Test image",
+      "textColor" : "green",
+      "cible" : "image"
+    },
+
+    {
+      "desc" : "Test son",
+      "textColor" : "blue",
+      "cible" : "son"
+    },
+
+    {
+      "desc" : "Test erreur",
+      "textColor" : "red",
+      "cible" : "erreur"
+    }
+  ]
+}
