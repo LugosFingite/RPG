@@ -6,9 +6,7 @@
 
 <musique> </musique>
 
-<graphisme>
-    Faire des graphismes de base pour l'UI
-</graphisme>
+<graphisme> </graphisme>
 
 Faire un brainstorming pour trouver des noms.
 Garder les meilleurs noms.
