@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from pygame.mixer import Sound
 from pygame import Color
 import typing
