@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import ctypes
 from pygame import mixer
 from Util import *

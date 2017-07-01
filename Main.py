@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pygame
 from Util import *
 import Histoire
