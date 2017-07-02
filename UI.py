@@ -31,7 +31,7 @@ class UI:
         self.ICON = pygame.display.set_icon(_icon)
         self.CLOCK = pygame.time.Clock()
 
-        log("Fenetre creee !")
+        log("Fenêtre créée !")
 
     def update(self, fps : int):
         pygame.display.update()
