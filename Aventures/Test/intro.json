@@ -1,33 +1,33 @@
 {
-  "desc" : "Ceci est un test",
-
-  "actions" : [
-    {
-      "desc" : "Test",
-      "cible" : "Test\\intro"
-    },
-
-    {
-      "desc" : "Test 2",
-      "cible" : "Test\\intro"
-    },
-
-    {
-      "desc" : "Test image",
-      "textColor" : "green",
-      "cible" : "Test\\image"
-    },
-
-    {
-      "desc" : "Test son",
-      "textColor" : "blue",
-      "cible" : "Test\\son"
-    },
-
-    {
-      "desc" : "Test erreur",
-      "textColor" : "red",
-      "cible" : "erreur"
-    }
-  ]
+    "actions": [
+        {
+            "cible": "image",
+            "color": "#00ff00",
+            "desc": "Test des images"
+        },
+        {
+            "cible": "intro2",
+            "color": "#ffffff",
+            "desc": "Test"
+        },
+        {
+            "cible": "son",
+            "color": "#0000ff",
+            "desc": "Test du son"
+        },
+        {
+            "cible": "intro",
+            "histoire": "Test2",
+            "color": "red",
+            "desc": "Test des changements d'histoire"
+        }
+    ],
+    "color": "#ffffff",
+    "desc": "Intro de l'histoire test.",
+    "editor_pos_x": 0,
+    "editor_pos_y": 0,
+    "image": "",
+    "loop_music": false,
+    "page": "intro",
+    "son": ""
 }

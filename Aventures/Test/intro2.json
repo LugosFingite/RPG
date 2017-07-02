@@ -1,0 +1,17 @@
+{
+    "actions": [
+        {
+            "cible": "intro",
+            "color": "#000000",
+            "desc": "Retour a l'intro"
+        }
+    ],
+    "color": "#ffffff",
+    "desc": "teeeeest des descriptions trop longues tralalallalalalLALlallalalalla   .....;.:    oui ;. idjiejdkjkkjpsppidjoziejoiezj. \n dlkfkf.                   okay",
+    "editor_pos_x": -139.47060217057557,
+    "editor_pos_y": -51.561356084191175,
+    "image": "",
+    "loop_music": false,
+    "page": "intro2",
+    "son": ""
+}

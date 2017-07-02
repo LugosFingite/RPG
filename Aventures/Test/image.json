@@ -1,13 +1,17 @@
 {
-  "desc" : "Test des images",
-  "textColor" : "green",
-  "image" : "Test\\test",
-
-  "actions" : [
-    {
-      "desc" : "Retour a l'intro",
-      "textColor" : "black",
-      "cible" : "Test\\intro"
-    }
-  ]
+    "actions": [
+        {
+            "cible": "intro",
+            "color": "#000000",
+            "desc": "Retour a l'intro"
+        }
+    ],
+    "color": "#00ff00",
+    "desc": "Test des images.",
+    "editor_pos_x": 0,
+    "editor_pos_y": 65.85920372386532,
+    "image": "Graphismes/image.png",
+    "loop_music": false,
+    "page": "image",
+    "son": ""
 }

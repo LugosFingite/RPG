@@ -1,14 +1,17 @@
 {
-  "desc" : "Test du son (repetitions)",
-  "textColor" : "blue",
-  "son" : "Test\\test",
-  "son.repeat" : 4,
-
-  "actions" : [
-    {
-      "desc" : "retour a l'intro",
-      "textColor" : "black",
-      "cible" : "Test\\intro"
-    }
-  ]
+    "actions": [
+        {
+            "cible": "intro",
+            "color": "#000000",
+            "desc": "Retour a l'intro"
+        }
+    ],
+    "color": "#0000ff",
+    "desc": "Test du son (a l'infini).",
+    "editor_pos_x": 227.80842824451182,
+    "editor_pos_y": -131.61339209458586,
+    "image": "",
+    "loop_music": true,
+    "page": "son2",
+    "son": "Musique/yaes.ogg"
 }

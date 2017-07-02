@@ -1,0 +1,17 @@
+{
+    "actions": [
+        {
+            "cible": "retour",
+            "color": "#ffffff",
+            "desc": "test"
+        }
+    ],
+    "color": "#ff0000",
+    "desc": "Test du changement d'histoire.",
+    "editor_pos_x": -135,
+    "editor_pos_y": -133,
+    "image": "",
+    "loop_music": false,
+    "page": "intro",
+    "son": ""
+}

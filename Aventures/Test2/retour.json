@@ -1,0 +1,23 @@
+{
+    "actions": [
+        {
+            "cible": "intro",
+            "color": "#000000",
+            "desc": "test"
+        },
+        {
+            "cible" : "intro",
+            "histoire" : "Test",
+            "color" : "#ff0000",
+            "desc" : "Retour a l'intro"
+        }
+    ],
+    "color": "#ffffff",
+    "desc": "",
+    "editor_pos_x": -136,
+    "editor_pos_y": -69,
+    "image": "",
+    "loop_music": false,
+    "page": "retour",
+    "son": ""
+}

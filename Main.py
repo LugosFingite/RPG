@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 import pygame
 from Util import *
 import Histoire
@@ -7,17 +8,19 @@ from UI import ui, _ui, _noImage
 from Audio import st
 
 
+# Notre jeu, dans une classe
 class Game:
+    # Quatre fonctions servant au bon fonctionnement du jeu
     def __init__(self):
         self.done = False
-        log("Jeu chargé et prêt à jouer !")
+        log("Jeu charge et pret à jouer !")
 
     def run(self):
         try:
             ui.MAIN.blit(_ui, (0, 0))
-            self.processpage(Histoire.pages[Histoire.page])
-        except:
-            raise KeyError("Page " + Histoire.page + " non trouvée.")
+            self.processpage(Histoire.page)
+        except KeyError:
+            raise Histoire.LoadError()
 
         self.events()
         self.update()
@@ -28,8 +31,9 @@ class Game:
                 self.done = True
 
     def update(self):
-        ui.update(20)
+        ui.update(16)
 
+    # Une fonction qui transforme les données récupérées dans les fichiers .json en une page utilisable par l'utilisateur
     def processpage(self, p: Histoire.Page):
         if p.image != None:
             ui.MAIN.blit(p.image, (0, 0))
@@ -55,4 +59,4 @@ rpg = Game()
 
 while not rpg.done:
     rpg.run()
-log("Projet terminé sans problèmes !")
+log("Projet termine sans problemes !")

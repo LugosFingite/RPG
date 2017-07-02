@@ -1,24 +1,22 @@
 {
-  "desc" : "Test du son",
-  "textColor" : "blue",
-  "son" : "Test\\test",
-  "son.repeat" : 0,
-
-  "actions" : [
-    {
-      "desc" : "retour a l'intro",
-      "textColor" : "black",
-      "cible" : "Test\\intro"
-    },
-
-    {
-      "desc" : "test des repetitions",
-      "cible" : "Test\\son2"
-    },
-
-    {
-      "desc" : "test de la repetition a l'infini",
-      "cible" : "Test\\son3"
-    }
-  ]
+    "actions": [
+        {
+            "cible": "intro",
+            "color": "#000000",
+            "desc": "Retour a l'intro"
+        },
+        {
+            "cible": "son2",
+            "color": "#0000ff",
+            "desc": "Test du bouclage"
+        }
+    ],
+    "color": "#0000ff",
+    "desc": "Test du son.",
+    "editor_pos_x": 80.88459146354205,
+    "editor_pos_y": -120.00346439443773,
+    "image": "",
+    "loop_music": false,
+    "page": "son",
+    "son": "Musique/yaes.ogg"
 }

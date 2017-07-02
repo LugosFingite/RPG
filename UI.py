@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import pygame
 import ctypes
 from Audio import st
@@ -7,30 +5,33 @@ import Histoire
 from Util import *
 
 
+# Des variables constantes servant pour l'écriture ainsi que pour les graphismes de base
 _MAXCHAR = 72
-_IGNORE = [' ', '.', ',', '!', '?', ':', ';']
+_IGNORE = (' ', '.', ',', '!', '?', ':', ';')
 
-_icon = pygame.image.load_extended("Graphismes\\Icon.png")
-_ui = pygame.image.load_extended("Graphismes\\UI.png")
-_button1 = pygame.image.load_extended("Graphismes\\Button1.png")
-_button2 = pygame.image.load_extended("Graphismes\\Button2.png")
-_button3 = pygame.image.load_extended("Graphismes\\Button3.png")
-_noImage = pygame.image.load_extended("Graphismes\\NoImage.png")
+_icon = pygame.image.load_extended("Graphismes/Icon.png")
+_ui = pygame.image.load_extended("Graphismes/UI.png")
+_button1 = pygame.image.load_extended("Graphismes/Button1.png")
+_button2 = pygame.image.load_extended("Graphismes/Button2.png")
+_button3 = pygame.image.load_extended("Graphismes/Button3.png")
+_noImage = pygame.image.load_extended("Graphismes/NoImage.png")
 
 
+# La classe contenant notre UI
 class UI:
+    # Les fonctions servant au bon fonctionnement de l'UI
     def __init__(self, name : str):
         pygame.init()
 
-        self.res = (600, 800)
-        self.buttonZone = (640, 150)
+        self.res = (600, 740)
+        self.buttonZone = (580, 150)
 
         self.MAIN = pygame.display.set_mode(self.res)
         self.NAME = pygame.display.set_caption(name)
         self.ICON = pygame.display.set_icon(_icon)
         self.CLOCK = pygame.time.Clock()
 
-        log("Fenêtre créée !")
+        log("Fenetre creee !")
 
     def update(self, fps : int):
         pygame.display.update()
@@ -40,6 +41,7 @@ class UI:
         pygame.quit()
 
 
+    # Les deux fonctions gérant le texte
     def _write(self, text: str, textColor: pygame.Color, size : ctypes.c_int16, x: ctypes.c_int16, y: ctypes.c_int16, center: bool = False):
         visual = pygame.font.SysFont("Candara", size)
         surface = visual.render(text, True, textColor)
@@ -81,6 +83,7 @@ class UI:
 
         return len(lines)
 
+    # Un créateur de bouton
     def button(self, y: ctypes.c_int16, action : Action):
         mouse = pygame.mouse.get_pos()
         click = pygame.mouse.get_pressed()
@@ -91,10 +94,11 @@ class UI:
             elif click[0] == 1:
                 self.MAIN.blit(_button3, (40, y))
 
-                if Histoire.pages[Histoire.page].son != None:
-                    st.stopsound(Histoire.pages[Histoire.page].son[0])
-                    Histoire.pages[Histoire.page].son[2] = False
-                Histoire.page = "Aventures\\" + action.cible + ".json"
+                if action.histoireCiblee != None:
+                    Histoire.histoire = action.histoireCiblee
+                if Histoire.page.son != None:
+                    st.stopsound(Histoire.page.son[0])
+                Histoire.page = Histoire.chargerpage(action.cible)
 
         else:
             self.MAIN.blit(_button1, (40, y))
