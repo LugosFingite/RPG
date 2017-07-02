@@ -13,7 +13,7 @@ class Game:
     # Quatre fonctions servant au bon fonctionnement du jeu
     def __init__(self):
         self.done = False
-        log("Jeu charge et pret à jouer !")
+        log("Jeu chargé et prêt à jouer !")
 
     def run(self):
         try:
@@ -59,4 +59,4 @@ rpg = Game()
 
 while not rpg.done:
     rpg.run()
-log("Projet termine sans problemes !")
+log("Projet terminé sans problèmes !")
