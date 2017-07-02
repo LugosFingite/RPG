@@ -1,4 +1,4 @@
 # RPG
-Livre Dont Tu Es Le Heros
+Un (gros) livre dont tu es le héros !
 
-Une doc viendra Mercredi
+Quelques infos en plus viendront demain, ou plus tard dans la semaine prochaine.
