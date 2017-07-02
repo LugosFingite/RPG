@@ -7,7 +7,7 @@ from Util import *
 class ST:
     def __init__(self):
         mixer.init()
-        log("Gestion de l'audio assuree !")
+        log("Gestion de l'audio assurée !")
 
     def __del__(self):
         mixer.quit()
